@@ -1,0 +1,609 @@
+{
+  "stocknumber": "string",
+  "identification": {
+    "stocknumber_public": true,
+    "referencenumber": "string",
+    "license_plate": "string",
+    "vin": "string",
+    "typenumber": "string",
+    "serialnumber": "string",
+    "direct_link": "string",
+    "location": "string",
+    "dataset": {
+      "vgs": {
+        "option_key": "string",
+        "maketypecode": "string",
+        "vehicle_type": "string",
+        "make": "string",
+        "model": "string",
+        "type": "string",
+        "edition": "string",
+        "bodytype": "string",
+        "fuel": "string"
+      },
+      "autotelex": {
+        "edition_nr": "string",
+        "vehicle_type": "string",
+        "make": "string",
+        "model": "string",
+        "variant": "string",
+        "edition": "string",
+        "bodytype": "string",
+        "fuel": "string"
+      }
+    },
+    "external_sources": {
+      "vivition": {
+        "id": "string"
+      },
+      "ktype": 0
+    }
+  },
+  "general": {
+    "category": "string",
+    "bodystyle": "string",
+    "make": {
+      "name": "string"
+    },
+    "model": {
+      "name": "string",
+      "code": "string",
+      "start": "string",
+      "end": "string"
+    },
+    "type": {
+      "name": "string",
+      "supplement": [
+        {
+          "language": "nl_NL",
+          "translation": "string"
+        }
+      ]
+    },
+    "application": {
+      "field": [
+        "agricultural"
+      ],
+      "material": [
+        "apple"
+      ],
+      "scale": [
+        "consumer"
+      ]
+    }
+  },
+  "body": {
+    "door_count": 0,
+    "dimensions": {
+      "length": 0,
+      "width": 0,
+      "height": 0
+    },
+    "max_roof_load": 0,
+    "colour": {
+      "primary": "beige",
+      "name": "string",
+      "tint": "light",
+      "paint_type": "solid"
+    },
+    "cabin": {
+      "length": "regular",
+      "sleeper_cab": "no",
+      "model": "string"
+    }
+  },
+  "interior": {
+    "seat_count": 0,
+    "bed_count": 0,
+    "colour": "string",
+    "upholstery": "alcantara"
+  },
+  "powertrain": {
+    "engine": {
+      "make": "string",
+      "model": "string",
+      "cylinder_count": 0,
+      "displacement": 0,
+      "power": {
+        "value": 0,
+        "unit": "hp"
+      },
+      "energy": {
+        "type": "Petrol",
+        "fuel": {
+          "consumption": {
+            "combined": 0,
+            "urban": 0,
+            "extra_urban": 0
+          },
+          "tank_capacity": 0,
+          "octane_rating": "91",
+          "e10_suitable": true
+        },
+        "electricity": {
+          "consumption": {
+            "combined": 0,
+            "urban": 0,
+            "extra_urban": 0
+          }
+        },
+        "range": 0
+      }
+    },
+    "transmission": {
+      "gear_count": 0,
+      "transmission_groups": 0,
+      "type": "manual",
+      "make": "string",
+      "model": "string",
+      "synchronised_transmission": true
+    },
+    "emissions": {
+      "class": "Euro 0",
+      "co2": 0,
+      "particulates": 0,
+      "energy_label": "A"
+    },
+    "axles": {
+      "count": 0,
+      "powered_axles_count": 0,
+      "wheelbase": 0
+    },
+    "wheels": {
+      "count": 0,
+      "diameter": 0
+    },
+    "tyres": {
+      "height": 0,
+      "width": 0,
+      "season": "winter"
+    },
+    "acceleration": 0,
+    "topspeed": 0
+  },
+  "chassis": {
+    "make": "string",
+    "model": "string",
+    "type": "rigid",
+    "steering": "rack_and_pinion"
+  },
+  "superstructure": {
+    "make": "string",
+    "model": "string",
+    "dimensions": {
+      "extended": "L1",
+      "heightened": "H1",
+      "length": 0,
+      "width": 0,
+      "height": 0
+    },
+    "pump": true,
+    "high_pressure_pump": true,
+    "loading_platform_height": 0,
+    "sliding_roof": true,
+    "extendable": true,
+    "car_capacity": 0,
+    "compartment_count": 0,
+    "hoses": true,
+    "counter": true,
+    "water_system": true,
+    "clean_water_tank": {
+      "present": true,
+      "capacity": 0
+    },
+    "tipper": {
+      "side_count": 0,
+      "tips_left": true,
+      "tips_right": true,
+      "tips_back": true
+    },
+    "wall_thickness": 0,
+    "temperature_control": {
+      "temperature": {
+        "min": 0,
+        "max": 0
+      },
+      "engine_type": "diesel",
+      "running_hours": {
+        "diesel": 0,
+        "electric": 0
+      }
+    },
+    "tailgate": {
+      "present": true,
+      "make": "string",
+      "model": "string",
+      "type": "slider_lift",
+      "capacity": 0
+    },
+    "crane": {
+      "present": true,
+      "make": "string",
+      "model": "string",
+      "year": 0,
+      "position": "behind_the_cabin"
+    }
+  },
+  "weights": {
+    "mass_empty": 0,
+    "payload": 0,
+    "gvw": 0,
+    "trailer_load": {
+      "braked": 0,
+      "unbraked": 0
+    }
+  },
+  "condition": {
+    "used": true,
+    "odometer": {
+      "reading": 0,
+      "unit": "kilometres"
+    },
+    "operating_hours": 0,
+    "state": {
+      "general": "really_good",
+      "technical": "really_good",
+      "optical": "really_good"
+    },
+    "damage": {
+      "state": "none",
+      "remarks": [
+        {
+          "language": "nl_NL",
+          "translation": "string"
+        }
+      ],
+      "repair_costs": 0
+    },
+    "key_count": 0,
+    "hand_transmitter_count": 0
+  },
+  "classification": {
+    "demonstrator": true,
+    "rental": true,
+    "consignment": true,
+    "oldtimer": true,
+    "classic": true,
+    "ce_marking": true,
+    "euro_ncap": "1"
+  },
+  "sales_conditions": {
+    "pricing": {
+      "advertising_preference": "regular_price_only",
+      "currency": "string",
+      "type": "asking_price",
+      "new": 0,
+      "procurement": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "consumer": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "discounted": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "as_is": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "trade": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "export": {
+        "value": 0,
+        "incl_vat": true
+      },
+      "fiscal_value": 0,
+      "estimated_value": 0
+    },
+    "bidding": {
+      "allowed": true,
+      "minimum": {
+        "value": 0,
+        "unit": "€"
+      },
+      "reserve": 0
+    },
+    "margin_scheme": true,
+    "delivery_costs": 0,
+    "delivery_package_required": true,
+    "expected": true,
+    "reserved": true,
+    "warranty": {
+      "manufacturer": {
+        "months": 0,
+        "end_date": "2023-10-18",
+        "max_distance": 0
+      },
+      "brand": {
+        "code": 0
+      },
+      "organization": {
+        "bovag_warranty": {
+          "offered": true,
+          "months": 0
+        },
+        "bovag_40puntencheck": true,
+        "bovag_afleverbeurt": true,
+        "vetos_warranty": true,
+        "pca_top_occasion": true,
+        "bcs_warranty": true,
+        "vakgarant_premium_occasion": true,
+        "autotrust_warranty": true,
+        "vwe_occasion_garant_plan": true,
+        "car_warranty": true,
+        "mbsg_garantie": true,
+        "100_procent_onderhouden": true
+      },
+      "dealer": {
+        "code": 0,
+        "label": "string",
+        "months": 0,
+        "max_distance": 0
+      },
+      "remarks": [
+        {
+          "language": "nl_NL",
+          "translation": "string"
+        }
+      ]
+    }
+  },
+  "lease_contract": {
+    "type": "full_operational",
+    "name": "string",
+    "start_date": "2023-10-18",
+    "end_date": "2023-10-18",
+    "monthly_installment": 0,
+    "original_monthly_installment": 0,
+    "annual_distance": 0,
+    "remaining_distance": 0,
+    "over_distance_penalty": 0,
+    "under_distance_refund": 0,
+    "down_payment": 0,
+    "security_deposit": 0,
+    "interest_rate": 0,
+    "remaining_balance": 0,
+    "purchase_possible": true,
+    "remarks": "string"
+  },
+  "history": {
+    "creation_date": "2023-10-18",
+    "mutation_date": "2023-10-18",
+    "procurement_date": "2023-10-18",
+    "arrival_date": "2023-10-18",
+    "sold_date": "2023-10-18",
+    "odometer_reading_date": "2023-10-18",
+    "construction_date": "string",
+    "first_registration": {
+      "country": "string",
+      "date": "2023-10-18"
+    },
+    "current_registration": {
+      "country": "string",
+      "first_admission": "2023-10-18"
+    },
+    "date_last_ownership_change": "2023-10-18",
+    "maintenance_booklet": "present",
+    "previous_owner_count": 0
+  },
+  "description": {
+    "remarks": [
+      {
+        "language": "nl_NL",
+        "translation": "string"
+      }
+    ],
+    "remarks_trade": [
+      {
+        "language": "nl_NL",
+        "translation": "string"
+      }
+    ],
+    "default_remark": 0,
+    "title": [
+      {
+        "language": "nl_NL",
+        "translation": "string"
+      }
+    ],
+    "highlights": [
+      {
+        "language": "nl_NL",
+        "translation": "string"
+      }
+    ],
+    "search_terms": [
+      {
+        "language": "nl_NL",
+        "translation": "string"
+      }
+    ]
+  },
+  "category_specific": {
+    "cars": {
+      "boot_capacity": {
+        "seats_up": 0,
+        "seats_down": 0
+      }
+    },
+    "bicycles": {
+      "user": "female",
+      "gearing": "hub",
+      "frame_height": {
+        "value": 0,
+        "unit": "cm"
+      }
+    },
+    "trucks": {
+      "transmission": [
+        "range"
+      ]
+    },
+    "trailers": {
+      "braked": true
+    },
+    "machinery": {
+      "forks": {
+        "length": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "width": {
+          "value": 0,
+          "unit": "mm"
+        }
+      },
+      "load_center_of_gravity": {
+        "value": 0,
+        "unit": "mm"
+      },
+      "battery": {
+        "capacity": {
+          "value": 0,
+          "unit": "Ah"
+        },
+        "voltage": 0,
+        "make": 0,
+        "year": 0,
+        "month": 0
+      },
+      "mast": {
+        "length": 0,
+        "type": "articulated",
+        "stage_count": 0
+      },
+      "pump_connection_size": "string",
+      "generator_power": 0,
+      "compressor_type": "rotary_screw",
+      "throughput_capacity": {
+        "value": 0,
+        "unit": "m³/h"
+      },
+      "max_reach": 0,
+      "voltage_rating": 0,
+      "jib_length": {
+        "value": 0,
+        "unit": "mm"
+      },
+      "track_width": {
+        "value": 0,
+        "unit": "mm"
+      },
+      "bucket_capacity": {
+        "value": 0,
+        "unit": "m³"
+      },
+      "working_width": 0,
+      "working_height": 0,
+      "lifting_height": 0,
+      "freelift": 0,
+      "lifting_capacity": 0,
+      "transportation": {
+        "immobile": true,
+        "method": [
+          "self_driving"
+        ],
+        "propulsion": [
+          "wheels"
+        ],
+        "surface": [
+          "road"
+        ],
+        "driver_position": "walk_behind"
+      },
+      "autonomous": true,
+      "crusher_type": "jaw",
+      "mower_type": "rotary",
+      "quick_coupler": true,
+      "pantograph": true,
+      "powershuttle": true,
+      "roller": {
+        "vibrating": true,
+        "surface": "smooth"
+      }
+    },
+    "attachments": {
+      "fits_to": [
+        "agricultural_machine"
+      ],
+      "hoist_connection": "fem"
+    },
+    "parts": {
+      "intended_position": {
+        "longitude": "front",
+        "latitude": "left"
+      }
+    },
+    "boats": {
+      "depth": 0,
+      "hull_material": "polyester",
+      "berth": "string"
+    },
+    "recreational_vehicles": {
+      "layout": {
+        "lounge1": {
+          "type": "standard",
+          "position": "front"
+        },
+        "lounge2": {
+          "type": "standard",
+          "position": "front"
+        },
+        "berth1": {
+          "type": "two_separate_beds",
+          "position": "front",
+          "direction": "lengthways"
+        },
+        "berth2": {
+          "type": "two_separate_beds",
+          "position": "front",
+          "direction": "lengthways"
+        },
+        "berth3": {
+          "type": "two_separate_beds",
+          "position": "front",
+          "direction": "lengthways"
+        },
+        "kitchen": {
+          "position": "front"
+        },
+        "bathroom": {
+          "position": "corner"
+        }
+      }
+    }
+  },
+  "region_specific": {
+    "nl": {
+      "apk_date": "2023-10-18",
+      "apk_delivery": true,
+      "build_year": 0,
+      "bpm_amount": 0,
+      "price_consumer_incl_bpm": true,
+      "price_discounted_incl_bpm": true,
+      "price_as_is_incl_bpm": true,
+      "price_trade_incl_bpm": true,
+      "income_tax_addition_percentage": 0,
+      "nap_weblabel": {
+        "skip": true
+      }
+    },
+    "be": {
+      "car_pass": true,
+      "car_pass_url": "string"
+    }
+  },
+  "auction": {
+    "id": "string",
+    "client_id": "string",
+    "link": "string"
+  },
+  "extra_fields": [
+    "string"
+  ]
+}

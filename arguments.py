@@ -1,0 +1,29 @@
+from tkinter import *
+money = 150
+eklift = -1
+breaksword = 150
+x = 300
+y = 755
+speed = 10
+height = 50
+weight = 50
+jump = False
+jumppower = 10
+playerx = x
+playery =  y
+right = False
+left = False
+shop1 = 1
+talk = 1
+breakswords = 1
+fbn = 2
+backpack1 = 1
+talk1 = False
+movea = 2
+moved = 2
+left1 = -5
+left2 = 4
+right1 = 4
+right2 = 4
+
+yess = 0
